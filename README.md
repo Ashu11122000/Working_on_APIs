@@ -34,6 +34,42 @@ This assignment demonstrates:
 
 ## API Design Concepts Covered
 
+1. Overview of REST Methods
+The following HTTP methods were studied and implemented:
+GET
+--> Used to retrieve resource(s)
+--> Does not modify server state
+
+POST
+--> Used to create a new resource
+--> Multiple identical requests create multiple resources
+
+PUT
+--> Used to replace an existing resource completely
+
+PATCH
+--> Used to partially update a resource
+
+DELETE
+--> Used to remove a resource
+
+2. Understanding HTTP Status Codes
+The assignment included working with different categories of HTTP status codes.
+Success Responses (2xx)
+--> 200 OK – Request processed successfully
+--> 201 Created – Resource successfully created
+--> 204 No Content – Request successful, no response body
+
+Client Errors (4xx)
+--> 400 Bad Request – Invalid request data
+--> 401 Unauthorised – Authentication required
+--> 404 Not Found – Resource not found
+
+Server Errors (5xx)
+--> 500 Internal Server Error – Unexpected server error
+
+--> Each API endpoint returns appropriate status codes based on the operation result.
+
 ### REST Architecture
 - Stateless communication  
 - Resource-based routing  
