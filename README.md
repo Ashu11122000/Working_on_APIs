@@ -72,8 +72,11 @@ This assignment demonstrates:
 
 You can find my complete theoretical explanations, breakdown of REST concepts, idempotency rules, and HTTP status code understanding here:
 
-🔗 **API Design Notes (Google Docs)**  
+🔗 **REST API Notes (Google Docs)**  
 https://docs.google.com/document/d/1ahyh0-vHreC6VLyCHXDVV0eOq8drOrzE_mcP_HfVsWI/edit?usp=sharing
+
+🔗 **API Design Notes (Google Docs)** 
+https://docs.google.com/document/d/19LCValmDgp9LWeT-Vj_TVo36UlkYeUvGo8nxsUggdKY/edit?usp=sharing
 
 ---
 
