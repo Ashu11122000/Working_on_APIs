@@ -2,11 +2,20 @@
   "name": "api-design",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/Ashu11122000/Working_on_APIs#readme",
+  "bugs": {
+    "url": "https://github.com/Ashu11122000/Working_on_APIs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashu11122000/Working_on_APIs.git"
+  },
   "license": "ISC",
   "author": "",
   "type": "module",
   "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "dependencies": {
@@ -51,6 +60,7 @@
     "mime-types": "^3.0.2",
     "ms": "^2.1.3",
     "negotiator": "^1.0.0",
+    "node-fetch": "^3.3.2",
     "object-inspect": "^1.13.4",
     "on-finished": "^2.4.1",
     "once": "^1.4.0",
